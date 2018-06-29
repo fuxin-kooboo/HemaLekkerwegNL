@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: FuturaHEMAProOT,Arial,sans-serif;
+}
+.content-container{
+	width: 100%;
+	height: auto;
+}
+.content-container .top{
+	max-width: 1280px;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow: hidden;
+}
+.content-container .top .left{
+	display: inline-block;
+	float: left;
+}
+.content-container .top .left .nav-link{
+	list-style-type: none;
+
+}
+.content-container .top .left .nav-link li{
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+.content-container .top .left .nav-link li span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: red;
+	border-radius: 100%;
+	margin-right: 25px;
+}
+.content-container .top .left .nav-link li:nth-of-type(1) span{
+	background: #2e2e2e;
+}
+.content-container .top .left .nav-link li:nth-of-type(2) span{
+	background: #5fc5dc;
+}
+.content-container .top .left .nav-link a{
+	text-decoration: none;
+	color: #353535;
+	font-size: 18px;
+	line-height: 25px;
+}
+.content-container .top .left .nav-link a:hover{
+	color: #5dc5e3;
+}
+.content-container .top .left .button{
+	width: 241px;
+	height: 40px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.content-container .top .left .button input{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: none;
+    background: #f7b34d;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #f7b34d;
+}
+.content-container .top .content-right{
+	background: #b7e0f6;
+	height: 500px;
+    float: right;
+    width: 800px;
+}
