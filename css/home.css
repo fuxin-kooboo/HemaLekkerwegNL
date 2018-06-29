@@ -11,7 +11,8 @@
 .content-container .top{
 	max-width: 1280px;
     margin: 0 auto;
-    border: 1px solid red;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e4e4;
     overflow: hidden;
 }
 .content-container .top .left{
@@ -69,8 +70,80 @@
     border: 1px solid #f7b34d;
 }
 .content-container .top .content-right{
-	background: #b7e0f6;
-	height: 500px;
     float: right;
     width: 800px;
+}
+.content-container .top .content-right .cont-top{
+	background: #b7e0f6;
+	margin-bottom: 30px;
+	
+}
+.content-container .top .content-right .cont-text {
+    width: 245px;
+    margin-left: 65px;
+    margin-top: 49px;
+    float: left;
+}
+.content-container .top .content-right .cont-text p:nth-of-type(1) {
+    font-size: 35px;
+    color: #ffffff;
+}
+.content-container .top .content-right .cont-text p:nth-of-type(2) {
+    font-size: 18px;
+    color: #030101;
+    line-height: 24px;
+}
+.content-container .top .content-right .cont-top img{
+	margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.content-container .top .content-right .cont-bottom{
+	
+}
+.content-container .top .content-right .cont-bottom ul li{
+	list-style: none;
+    background: red;
+    color: #ffffff;
+    width: 48%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+.content-container .top .content-right .cont-bottom ul li i{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    cursor: pointer;
+}
+.content-container .top .content-right .cont-bottom ul{
+	flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.content-container .top .content-right .cont-bottom ul li p:nth-of-type(1){
+	font-size: 33px;
+	margin-top: 20px;
+}
+.content-container .top .content-right .cont-bottom ul li p:nth-of-type(2){
+	font-size: 18px;
+	color: #000000;
+}
+.content-container .top .content-right .cont-bottom ul li:nth-of-type(1){
+	background: #bce8f5;
+}
+.content-container .top .content-right .cont-bottom ul li:nth-of-type(2){
+	background: #fcc7cd;
+}
+.content-container .list{
+	max-width: 1280px;
+    margin: 0 auto;
+    height: 300px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin-top: 20px;
 }
