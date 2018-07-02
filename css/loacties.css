@@ -101,7 +101,9 @@
 }
 .content-container .top .content-right .cont-bottom{
     overflow: hidden;
-    border-bottom:1px solid #e4e4e4 ; 
+    border-top: 1px solid #e4e4e4;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 .content-container .top .content-right .cont-bottom .form-list{
 	/* width: 33%; */
@@ -116,6 +118,66 @@
 	border:1px solid #e4e4e4 ;
 	margin-right: 15px;
 }
-.content-container .top .content-right .cont-bottom .form-list p{
+.content-container .top .content-right .cont-bottom .form-list label{
 	margin-bottom: 10px;
+	display: block;
+}
+.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3){
+	margin-top: 18px;
+}
+.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3) input{
+	height: 25px;
+	border:1px solid #e4e4e4 ;
+	outline: none;
+}
+.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3) input:nth-of-type(1){
+	width: 286px;
+	padding-left: 133px;
+}
+.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3) input:nth-of-type(2){
+	background:#61c5df ;
+	color: #ffffff;
+	padding:0px 10px;
+	cursor: pointer;
+}
+.content-container .top .content-right .cont-bottom .locaties{
+	
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop{
+	margin-top:20px;
+	
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop li{
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: left;
+	/*display: flex;
+	justify-content: space-between;*/
+    /*width: 50%;*/
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop li img{
+	width: 150px;
+	float: left;
+	margin-right: 15px;
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text{
+	display: inline-block;
+    width: 234px;
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text h3{
+	color: #1375c8;
+	font-size:14px ;
+	line-height: 20px;
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text span{
+	color: #615c5d;
+	font-size:14px ;
+	display: block;
+	line-height: 24px;
+}
+.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text p{
+	color: #4d4b4c;
+	font-size:14px ;
+	display: block;
+	line-height: 18px;
 }
