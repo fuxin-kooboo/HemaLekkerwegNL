@@ -72,6 +72,7 @@
 .content-container .top .content-right{
     float: right;
     width: 800px;
+    border-bottom: 1px solid #e4e4e4;
 }
 .content-container .top .content-right .cont-top{
 	background: #b7e0f6;
@@ -99,90 +100,22 @@
     margin-bottom: 5%;
 }
 .content-container .top .content-right .cont-bottom{
-	
-}
-.content-container .top .content-right .cont-bottom ul li{
-	list-style: none;
-    background: red;
-    color: #ffffff;
-    width: 48%;
-    height: auto;
-    text-align: center;
-    position: relative;
-    padding: 10px 0;
-}
-.content-container .top .content-right .cont-bottom ul li i{
-    display: inline-block;
-    position: absolute;
-    top: 40%;
-    right: 20px;
-    cursor: pointer;
-}
-.content-container .top .content-right .cont-bottom ul{
-	flex-direction: row;
-    justify-content: space-between;
-    display: flex;
-    
-}
-
-.content-container .top .content-right .cont-bottom ul li p:nth-of-type(1){
-	font-size: 33px;
-	margin-top: 20px;
-}
-.content-container .top .content-right .cont-bottom ul li p:nth-of-type(2){
-	font-size: 18px;
-	color: #000000;
-}
-.content-container .top .content-right .cont-bottom ul li:nth-of-type(1){
-	background: #bce8f5;
-}
-.content-container .top .content-right .cont-bottom ul li:nth-of-type(2){
-	background: #fcc7cd;
-}
-.content-container .list{
-	max-width: 1280px;
-    margin: 0 auto;
     overflow: hidden;
-    margin-top: 20px;
-    border-bottom: 1px solid  #e4e4e4;
+    border-bottom:1px solid #e4e4e4 ; 
 }
-.content-container .list .nav{
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.content-container .top .content-right .cont-bottom .form-list{
+	/* width: 33%; */
+	float: left;
 }
-.content-container .list .nav li{
-    list-style: none;
-    float: left;
-    color: #a3a3a3;
-    font-size: 16px;
-    margin-left: 98px;
+.content-container .top .content-right .cont-bottom form{
+	overflow: hidden;
 }
-.content-container .list .list-pic{
-    border-bottom: 1px solid #e4e4e4;
-    margin-bottom: 20px;
+.content-container .top .content-right .cont-bottom .form-list select{
+	width:197px;
+	height: 25px;
+	border:1px solid #e4e4e4 ;
+	margin-right: 15px;
 }
-.content-container .list .list-pic ul{
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid  #e4e4e4;
-}
-.content-container .list .list-pic li{
-    list-style: none;
-    float: left;  
-    border-left:1px solid  #e4e4e4;
-    width: 25%;
-    box-sizing: border-box;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.content-container .list .list-pic li p{
-    margin-top: 60px;
-    color: #a3a3a3;
-    text-align: left;
-    margin-left: 22px;
+.content-container .top .content-right .cont-bottom .form-list p{
+	margin-bottom: 10px;
 }
