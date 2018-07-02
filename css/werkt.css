@@ -1,8 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	font-family: FuturaHEMAProOT,Arial,sans-serif;
+	box-sizing: border-box;	
+    font-family: "FuturaHEMAProOT","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 }
 .content-container{
 	width: 100%;
@@ -14,6 +14,7 @@
     padding-bottom: 20px;
     border-bottom: 1px solid #e4e4e4;
     overflow: hidden;
+    margin-top: 20px;
 }
 .content-container .top .left{
 	display: inline-block;
@@ -63,7 +64,7 @@
     outline: none;
     background: #f7b34d;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     cursor: pointer;
     display: inline-block;
     border-radius: 5px;
@@ -72,7 +73,6 @@
 .content-container .top .content-right{
     float: right;
     width: 800px;
-    border-bottom: 1px solid #e4e4e4;
 }
 .content-container .top .content-right h3{
  	text-align: center;
@@ -112,11 +112,13 @@
 }
 .content-container .top .content-right form{
 	margin-top: 40px;
+	padding-bottom: 20px;
 }
 .content-container .top .content-right form label{
 	display: block;
 	font-size: 29px;
 	color: #2e2e2e;
+	margin-bottom: 10px;
 	
 }
 .content-container .top .content-right form input:nth-of-type(1){
