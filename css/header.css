@@ -9,7 +9,7 @@
 }
 .container .header{
 	max-width: 1280px;
-	height: 70px;
+	/*height: 70px;*/
     margin: 0 auto;
     float: none;
 }

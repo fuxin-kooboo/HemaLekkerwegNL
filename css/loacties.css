@@ -74,7 +74,7 @@
     float: right;
     width: 800px;
 }
-.content-container .top .content-right .cont-top{
+.content-container .top .content-right .locaties-cont-top{
 	background: #b7e0f6;
 	margin-bottom: 30px;
 	
@@ -94,60 +94,60 @@
     color: #030101;
     line-height: 24px;
 }
-.content-container .top .content-right .cont-top img{
+.content-container .top .content-right .locaties-cont-top img{
 	margin-top: 10%;
     margin-left: 10%;
     margin-bottom: 5%;
 }
-.content-container .top .content-right .cont-bottom{
+.content-container .top .content-right .locaties-cont-bottom{
     overflow: hidden;
     border-top: 1px solid #e4e4e4;
     padding-top: 20px;
     margin-bottom: 20px;
 }
-.content-container .top .content-right .cont-bottom .form-list{
+.content-container .top .content-right .locaties-cont-bottom .form-list{
 	/* width: 33%; */
 	float: left;
 }
-.content-container .top .content-right .cont-bottom form{
+.content-container .top .content-right .locaties-cont-bottom form{
 	overflow: hidden;
 }
-.content-container .top .content-right .cont-bottom .form-list select{
+.content-container .top .content-right .locaties-cont-bottom .form-list select{
 	width:197px;
 	height: 25px;
 	border:1px solid #e4e4e4 ;
 	margin-right: 15px;
 }
-.content-container .top .content-right .cont-bottom .form-list label{
+.content-container .top .content-right .locaties-cont-bottom .form-list label{
 	margin-bottom: 10px;
 	display: block;
 }
-.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3){
+.content-container .top .content-right .locaties-cont-bottom .form-list:nth-of-type(3){
 	margin-top: 18px;
 }
-.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3) input{
+.content-container .top .content-right .locaties-cont-bottom .form-list:nth-of-type(3) input{
 	height: 25px;
 	border:1px solid #e4e4e4 ;
 	outline: none;
 }
-.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3) input:nth-of-type(1){
+.content-container .top .content-right .locaties-cont-bottom .form-list:nth-of-type(3) input:nth-of-type(1){
 	width: 286px;
 	padding-left: 23px;
 }
-.content-container .top .content-right .cont-bottom .form-list:nth-of-type(3) input:nth-of-type(2){
+.content-container .top .content-right .locaties-cont-bottom .form-list:nth-of-type(3) input:nth-of-type(2){
 	background:#61c5df ;
 	color: #ffffff;
 	padding:0px 10px;
 	cursor: pointer;
 }
-.content-container .top .content-right .cont-bottom .locaties{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties{
 	
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop{
 	margin-top:20px;
 	
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop li{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li{
 	overflow: hidden;
 	margin-bottom: 20px;
 	float: left;
@@ -155,27 +155,27 @@
 	justify-content: space-between;*/
     /*width: 50%;*/
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop li img{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li img{
 	width: 150px;
 	float: left;
 	margin-right: 15px;
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li .text{
 	display: inline-block;
     width: 234px;
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text h3{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li .text h3{
 	color: #1375c8;
 	font-size:14px ;
 	line-height: 20px;
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text span{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li .text span{
 	color: #696767;
 	font-size:14px ;
 	display: block;
 	line-height: 24px;
 }
-.content-container .top .content-right .cont-bottom .locaties .locaties-loop li .text p{
+.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li .text p{
 	color: #453537;
 	font-size:14px ;
 	display: block;
