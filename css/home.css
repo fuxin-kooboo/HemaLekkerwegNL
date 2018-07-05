@@ -14,6 +14,7 @@ body{
 .content-container{
 	width: 100%;
 	height: auto;
+	padding: 0 .2rem;
 }
 .content-container .top{
 	max-width: 12.80rem;
@@ -63,6 +64,7 @@ body{
 	height: .40rem;
 	margin-left: .30rem;
 	margin-top:.20rem;
+	margin-bottom: .2rem;
 }
 .content-container .top .left .button input{
     width: 100%;
@@ -80,10 +82,11 @@ body{
 .content-container .top .content-right{
     float: right;
     width: 8.00rem;
+    max-width: 100%;
 }
 .content-container .top .content-right .home-cont-top{
 	background: #b7e0f6;
-	margin-bottom: .30rem;
+	margin-bottom: .15rem;
 	
 }
 .content-container .top .content-right .cont-text {
@@ -130,7 +133,7 @@ body{
 	flex-direction: row;
     justify-content: space-between;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .content-container .top .content-right .home-cont-bottom ul li p:nth-of-type(1){
@@ -158,6 +161,7 @@ body{
     justify-content: space-between;
     overflow: hidden;
     margin-top: .20rem;
+    flex-wrap: wrap;
     margin-bottom: .20rem;
 }
 .content-container .home-list .nav li{
@@ -171,6 +175,7 @@ body{
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-top: 1px solid  #e4e4e4;
     padding-bottom: .20rem;
 }
@@ -197,4 +202,43 @@ body{
 	color: #9fc23a;
     font-weight: 800;
     margin-right: .10rem;
+}
+@media only screen and (max-width:768px ) {
+	.content-container .top .content-right .home-cont-bottom ul li{
+		list-style: none;
+	    background: red;
+	    color: #ffffff;
+	    max-width: 100%;
+	    height: auto;
+	    text-align: center;
+	    position: relative;
+	    padding: .10rem 0;
+	}
+	.content-container .home-list .list-pic li {
+	    list-style: none;
+	    float: left;
+	    border-left: 1px solid #e4e4e4;
+	    width: 100%;
+	    box-sizing: border-box;
+	    text-align: center;
+	    padding-top: .20rem;
+	    padding-bottom: .20rem;
+	}
+	.content-container .top .content-right .home-cont-bottom ul li{
+		list-style: none;
+	    background: red;
+	    color: #ffffff;
+	    width: 100%;
+	    height: auto;
+	    text-align: center;
+	    position: relative;
+	    padding: .10rem 0;
+	    margin-bottom: .15rem;
+	}
+	.container .header .nav {
+   		display: none;
+	}
+	.foot-container .footer ul {
+	    display: none !important;
+	}
 }
