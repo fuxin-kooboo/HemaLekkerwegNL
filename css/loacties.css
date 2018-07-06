@@ -95,7 +95,7 @@ body{
     float: left;
 }
 .content-container .top .content-right .cont-text p:nth-of-type(1) {
-    font-size: .35rem;
+    font-size: .40rem;
     color: #ffffff;
     font-weight: 600;
 }
@@ -164,9 +164,6 @@ body{
 	overflow: hidden;
 	margin-bottom: .20rem;
 	float: left;
-	/*display: flex;
-	justify-content: space-between;*/
-    /*width: 50%;*/
 }
 .content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li img{
 	width: 1.50rem;
@@ -195,7 +192,7 @@ body{
 	display: block;
 	line-height: .18rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width:425px){
 	.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop {
 	    margin-top: .20rem;
 	    flex-wrap: wrap;
@@ -224,4 +221,30 @@ body{
 		display: inline-block;
 		width: 58%;
 		}
+}
+
+
+@media only screen and (max-width:425px ) {
+	.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li .text {
+    display: inline-block;
+	    /* width: 2.34rem; */
+	     width: 100%; 
+	}
+	.content-container .top .content-right .locaties-cont-bottom .locaties-locaties .locaties-loop li .text {
+	    /* display: inline-block; */
+	     width: auto !important; 
+	}
+	.content-container .top .content-right .locaties-cont-bottom .form-list select {
+	    width: 100%;
+	}
+	.content-container .top .content-right .locaties-cont-bottom .form-list {
+	    float: none;
+	    width: 100%;
+	}
+	.content-container .top .content-right .locaties-cont-bottom .form-list:nth-of-type(3) input:nth-of-type(1) {
+	   width: 73%;
+	}
+	.content-container .top .content-right .locaties-cont-bottom .form-list:nth-of-type(3) input:nth-of-type(2) {
+	   width: 25%;
+	}
 }
